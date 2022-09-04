@@ -15,6 +15,9 @@ app/kernel*
 ios
 pprof
 
+node_modules
+pnpm-lock.yaml
+
 # Test binary, build with `go test -c`
 *.test
 
