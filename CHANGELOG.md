@@ -4525,7 +4525,7 @@ Bug fixes and improves details.
 
 ## v0.9.8 / 2021-02-15
 
-### Features
+### Features  
 
 * [File tree custom sorting](https://github.com/siyuan-note/siyuan/issues/1513)
 * [Highlight panel by focus](https://github.com/siyuan-note/siyuan/issues/1518)
