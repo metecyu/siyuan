@@ -20,11 +20,13 @@ goversioninfo -platform-specific=true -icon=resource/icon.ico -manifest=resource
 
 set GOOS=windows
 set GOARCH=amd64
-go build --tags fts5 -v -o "../app/kernel/SiYuan-Kernel.exe" -ldflags "-s -w -H=windowsgui" .
+echo go build --tags fts5 -v -o "../app/kernel/SiYuan-Kernel.exe" -ldflags "-s -w -H=windowsgui" .
+echo debug cmd  go build --tags fts5 -v -o "../app/kernel/SiYuan-Kernel.exe" -gcflags="all=-N -l" .
+go build --tags fts5 -v -o "../app/kernel/SiYuan-Kernel.exe" -gcflags="all=-N -l" .
 
 
 echo 'Building Electron'
-cd app
+cd ../app
 call pnpm run dist
 
 echo 'Building Appx'
