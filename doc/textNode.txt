@@ -1,0 +1,62 @@
+//  普通文本 
+{
+    "ID": "20220917152156-vyjau7e",
+    "Type": "NodeParagraph",
+    "Properties": {
+        "id": "20220917152156-vyjau7e",
+        "updated": "20220917154124"
+    },
+    "Children": [
+        {
+            "Type": "NodeText",
+            "Data": "aaaaa"
+        }
+    ]
+},
+
+//  粗体
+{
+    "ID": "20220917152300-g34lkzc",
+    "Type": "NodeParagraph",
+    "Properties": {
+        "id": "20220917152300-g34lkzc",
+        "updated": "20220917154136"
+    },
+    "Children": [
+        {
+            "Type": "NodeStrong",
+            "Data": "strong",
+            "Children": [
+                {
+                    "Type": "NodeStrongA6kOpenMarker",
+                    "Data": "**"
+                },
+                {
+                    "Type": "NodeText",
+                    "Data": "bbbbb"
+                },
+                {
+                    "Type": "NodeStrongA6kCloseMarker",
+                    "Data": "**"
+                }
+            ]
+        }
+    ]
+},
+
+//  标题3
+{
+    "ID": "20220917152303-eargzhb",
+    "Type": "NodeHeading",
+    "HeadingLevel": 3,
+    "Properties": {
+        "id": "20220917152303-eargzhb",
+        "updated": "20220917154132"
+    },
+    "Children": [
+        {
+            "Type": "NodeText",
+            "Data": "cccc"
+        }
+    ]
+},
